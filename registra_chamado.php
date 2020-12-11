@@ -15,7 +15,7 @@
     $texto = $titulo.'#'.$categoria.'#'.$descricao.PHP_EOL;
     
   
-    $arquivo = fopen('arquivo.hd','a');
+    $arquivo = fopen('arquivo.help','a');
 
    
     fwrite($arquivo,$texto);
